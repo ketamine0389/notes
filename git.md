@@ -10,7 +10,8 @@ Initialize a repository, default creates a master branch.
 ```git init```
 
 Adding remote origin.
-```git remote set-url https://github.com/OWNER/REPOSITORY.git```
+```git remote add NAME https://github.com/OWNER/RESPOSITORY.git
+git remote set-url NAME https://github.com/OWNER/REPOSITORY.git```
 
 Creating branches.
 ```git branch BRANCE_NAME BRANCH_TARGET```
@@ -27,4 +28,7 @@ View commit stack (tree).
 
 Commit files to branch.
 ```git commit -m 'MESSAGE HERE'```
+
+Set push and set upstream
+```git push --set-upstream origin master```
 
