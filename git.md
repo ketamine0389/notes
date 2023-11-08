@@ -7,28 +7,44 @@ Look into creating remote to GitHub through CLI.
 
 ### Setup
 Initialize a repository, default creates a master branch.
-```git init```
+```
+git init
+```
 
 Adding remote origin.
-```git remote add NAME https://github.com/OWNER/RESPOSITORY.git
-git remote set-url NAME https://github.com/OWNER/REPOSITORY.git```
+```
+git remote add NAME https://github.com/OWNER/RESPOSITORY.git
+git remote set-url NAME https://github.com/OWNER/REPOSITORY.git
+```
 
 Creating branches.
-```git branch BRANCE_NAME BRANCH_TARGET```
+```
+git branch BRANCE_NAME BRANCH_TARGET
+```
 
 Switching branches.
-```git checkout BRANCH_NAME```
+```
+git checkout BRANCH_NAME
+```
 **NOTE: The above two can be used in conjuction to both create a new branch and swich to it**
 
 Add files to commit stack.
-```git add .```
+```
+git add .
+```
 
 View commit stack (tree).
-```git log```
+```
+git log
+```
 
 Commit files to branch.
-```git commit -m 'MESSAGE HERE'```
+```
+git commit -m 'MESSAGE HERE'
+```
 
 Set push and set upstream
-```git push --set-upstream origin master```
+```
+git push --set-upstream origin master
+```
 
